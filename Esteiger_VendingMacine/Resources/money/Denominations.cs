@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Esteiger_VendingMachine.Resources.money
 {
-  class Dollar : CurrencyAbstract
+  public class Dollar : CurrencyAbstract
   {
     public Dollar()
     {
@@ -15,7 +15,7 @@ namespace Esteiger_VendingMachine.Resources.money
     }
   }
 
-  class Quarter : CurrencyAbstract
+  public class Quarter : CurrencyAbstract
   {
     public Quarter()
     {
@@ -24,7 +24,7 @@ namespace Esteiger_VendingMachine.Resources.money
     }
   }
 
-  class Dime : CurrencyAbstract
+  public class Dime : CurrencyAbstract
   {
     public Dime()
     {
@@ -33,7 +33,7 @@ namespace Esteiger_VendingMachine.Resources.money
     }
   }
 
-  class Nickel : CurrencyAbstract
+  public class Nickel : CurrencyAbstract
   {
     public Nickel()
     {

@@ -13,7 +13,7 @@ namespace Esteiger_VendingMachine.Resources.money
 
     public virtual float GetValue()
     {
-      float Value = this.Weight / 100;
+      float Value = (float)Weight / 100;
       return Value;
     }
   }

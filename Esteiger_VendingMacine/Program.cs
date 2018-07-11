@@ -11,10 +11,6 @@ namespace Esteiger_VendingMachine
   {
     static void Main(string[] args)
     {
-      var dollar = new Dollar();
-      var quarter = new Quarter();
-      var dime  = new Dime();
-      var nickel = new Nickel();
 
     }
   }
