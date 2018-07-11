@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Esteiger_VendingMacine
+namespace Esteiger_VendingMachine
 {
   class VendingMachine
   {
