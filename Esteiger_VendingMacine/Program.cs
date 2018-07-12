@@ -1,4 +1,5 @@
 ﻿using Esteiger_VendingMachine.Resources.money;
+using Esteiger_VendingMachine.Resources.products;
 using System;
 using System.Collections.Generic;
 using System.Linq;

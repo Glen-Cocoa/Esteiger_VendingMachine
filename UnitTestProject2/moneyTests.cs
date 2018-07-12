@@ -5,7 +5,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace UnitTestProject2
 {
   [TestClass]
-  public class VendingMachineTests
+  public class MoneyTests
   {
     [TestMethod]
     public void CheckDollar()
