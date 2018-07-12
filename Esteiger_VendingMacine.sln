@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Esteiger_VendingMacine", "Esteiger_VendingMacine\Esteiger_VendingMacine.csproj", "{38E88A57-4E0C-4ED3-A1B3-F8012A560622}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Esteiger_VendingMachine", "Esteiger_VendingMacine\Esteiger_VendingMachine.csproj", "{38E88A57-4E0C-4ED3-A1B3-F8012A560622}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VendingMachineTests", "UnitTestProject2\VendingMachineTests.csproj", "{D0E2B6C3-F4F9-441D-8A97-8E3255741529}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{38E88A57-4E0C-4ED3-A1B3-F8012A560622}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38E88A57-4E0C-4ED3-A1B3-F8012A560622}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38E88A57-4E0C-4ED3-A1B3-F8012A560622}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0E2B6C3-F4F9-441D-8A97-8E3255741529}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0E2B6C3-F4F9-441D-8A97-8E3255741529}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0E2B6C3-F4F9-441D-8A97-8E3255741529}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0E2B6C3-F4F9-441D-8A97-8E3255741529}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
