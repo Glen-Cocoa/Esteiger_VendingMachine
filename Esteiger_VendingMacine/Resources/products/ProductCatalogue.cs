@@ -17,6 +17,8 @@ namespace Esteiger_VendingMachine.Resources.products
       {"Salsa", 300}
     };
 
+    //List<IProduct> Catalogue;
+
     public List<IProduct> PopulateCatalogue()
     {
       List<IProduct> Catalogue = new List<IProduct>();

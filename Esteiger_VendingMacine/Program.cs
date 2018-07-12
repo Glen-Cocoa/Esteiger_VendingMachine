@@ -12,10 +12,8 @@ namespace Esteiger_VendingMachine
   {
     static void Main(string[] args)
     {
-      var x = new ProductCatalogue();
-      var y = x.PopulateCatalogue();
-
-      Console.WriteLine(y[1].GetCost());
+      var x = new VendingMachine();
+     
     }
   }
 }
