@@ -13,7 +13,15 @@ namespace Esteiger_VendingMachine
     static void Main(string[] args)
     {
       var x = new VendingMachine();
-     
+      var y = x.VMInventory[0];
+      x.AddItemToCart(y);
+      x.AddItemToCart(y);
+      x.AddItemToCart(y);
+      x.AddToBank(new Dollar());
+      x.AddToBank(new Dollar());
+      x.AddToBank(new Dollar());
+
+      x.GetBalance();
     }
   }
 }

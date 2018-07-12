@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Esteiger_VendingMachine.Resources.money
 {
-  public abstract class CurrencyAbstract
+  public abstract class Currency
   {
     public string Name;
     public int Weight;
