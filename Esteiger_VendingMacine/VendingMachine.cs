@@ -98,7 +98,8 @@ namespace Esteiger_VendingMachine
 
     public List<IProduct> ReturnInventoryLessThanTwo()
     {
-      List<IProduct> result = VMInventory.FindAll(x => x.Value < 2);
+      List<IProduct> result = VMInventory.FindAll(x => x.Value < 200);
+
       return result;
     }
     public int NumberOfProducts()

@@ -48,11 +48,11 @@ namespace Esteiger_VendingMachine
         if (reply == "D")
         {
           List<IProduct> products = YourVendingMachine.ReturnInventoryLessThanTwo();
-          for (int i = 0; i < products.Count; i++)
+          for (var i = 0; i < products.Count; i++)
           {
             Console.WriteLine($"{products[i].Name} : {products[i].Value} cents");
-            //YourVendingMachine.AddItemToCart(i+1);
-            //YourVendingMachine.CheckOut();
+            YourVendingMachine.AddItemToCart(i + 1);
+            YourVendingMachine.CheckOut();
           }
         }
       }
@@ -61,7 +61,7 @@ namespace Esteiger_VendingMachine
       {
         Console.WriteLine("Would you like to \r\n A) Insert a Dollar \r\n B) Insert a Quarter \r\n C) Insert a Dime \r\n D) Insert a Nickel");
 
-        string MoneyReply = Console.ReadLine();
+        var MoneyReply = Console.ReadLine();
         if (MoneyReply != "A" && MoneyReply != "B" && MoneyReply != "C" && MoneyReply != "D")
         {
           InvalidChoice();
