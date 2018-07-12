@@ -12,7 +12,8 @@ namespace Esteiger_VendingMachine
   {
     static void Main(string[] args)
     {
-
+      var x = new VendingMachine();
+     
     }
   }
 }
