@@ -10,6 +10,6 @@ namespace Esteiger_VendingMachine
 {
   class VendingMachine
   {
-   
+    protected List<IProduct> Catalogue;
   }
 }

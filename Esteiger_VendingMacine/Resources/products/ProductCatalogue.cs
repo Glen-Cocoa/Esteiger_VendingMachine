@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Esteiger_VendingMachine.Resources.products
 {
-  class ProductCatalogue
+  public class ProductCatalogue
   {
     public Dictionary<string, int> productInventory = new Dictionary<string, int>()
     {
