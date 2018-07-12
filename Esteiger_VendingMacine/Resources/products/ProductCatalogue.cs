@@ -26,9 +26,9 @@ namespace Esteiger_VendingMachine.Resources.products
       foreach (KeyValuePair<string, int> pair in productInventory)
       {
         string name = pair.Key;
-        int weight = pair.Value;
+        int value = pair.Value;
 
-        Catalogue.Add(new Product(name, weight));
+        Catalogue.Add(new Product(name, value));
         //Console.WriteLine(name);
         //Console.WriteLine(weight);
       }

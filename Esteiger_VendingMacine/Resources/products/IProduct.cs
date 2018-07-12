@@ -3,7 +3,7 @@
   public interface IProduct
   {
     string Name { get;}
-    int Weight { get;}
-    float GetCost();
+    int Value { get;}
+    //float GetCost();
   }
 }

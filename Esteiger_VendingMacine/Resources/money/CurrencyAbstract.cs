@@ -9,12 +9,12 @@ namespace Esteiger_VendingMachine.Resources.money
   public abstract class Currency
   {
     public string Name;
-    public int Weight;
+    public int Value;
 
-    public virtual float GetValue()
-    {
-      float Value = (float)Weight / 100;
-      return Value;
-    }
+    //public float GetValue()
+    //{
+    //  float Value = (float)Weight / 100;
+    //  return Value;
+    //}
   }
 }

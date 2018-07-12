@@ -11,7 +11,7 @@ namespace Esteiger_VendingMachine.Resources.money
     public Dollar()
     {
       this.Name = "Dollar";
-      this.Weight = 100;
+      this.Value = 100;
     }
   }
 
@@ -20,7 +20,7 @@ namespace Esteiger_VendingMachine.Resources.money
     public Quarter()
     {
       this.Name = "Quarter";
-      this.Weight = 25;
+      this.Value = 25;
     }
   }
 
@@ -29,7 +29,7 @@ namespace Esteiger_VendingMachine.Resources.money
     public Dime()
     {
       this.Name = "Dime";
-      this.Weight = 10;
+      this.Value = 10;
     }
   }
 
@@ -38,7 +38,7 @@ namespace Esteiger_VendingMachine.Resources.money
     public Nickel()
     {
       this.Name = "Nickel";
-      this.Weight = 5;
+      this.Value = 5;
 
     }
   }
