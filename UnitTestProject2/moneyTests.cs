@@ -11,41 +11,41 @@ namespace UnitTestProject2
     public void CheckDollar()
     {
       //arrange
-      var dollar = new Dollar();
+      Currency dollar = new Dollar();
       //act
-      float Val = dollar.GetValue();
+      float Val = dollar.Value;
       //assert
-      Assert.AreEqual(1, Val);
+      Assert.AreEqual(100, Val);
     }
     [TestMethod]
     public void CheckQuarter()
     {
       //arrange
-      var quarter = new Quarter();
+      Currency quarter = new Quarter();
       //act
-      float Val = quarter.GetValue();
+      float Val = quarter.Value;
       //assert
-      Assert.AreEqual(0.25, Val, 0.01);
+      Assert.AreEqual(25, Val, 0.01);
     }
     [TestMethod]
     public void CheckDime()
     {
       //arrange
-      var dime = new Dime();
+      Currency dime = new Dime();
       //act
-      float Val = dime.GetValue();
+      float Val = dime.Value;
       //assert
-      Assert.AreEqual(0.10, Val, 0.01);
+      Assert.AreEqual(10, Val, 0.01);
     }
     [TestMethod]
     public void CheckNickel()
     {
       //arrange
-      var nickel = new Nickel();
+      Currency nickel = new Nickel();
       //act
-      float Val = nickel.GetValue();
+      float Val = nickel.Value;
       //assert
-      Assert.AreEqual(0.05, Val, 0.01);
+      Assert.AreEqual(5, Val, 0.01);
     }
   }
 }

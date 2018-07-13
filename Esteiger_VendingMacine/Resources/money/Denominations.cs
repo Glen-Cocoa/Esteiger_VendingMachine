@@ -6,40 +6,48 @@ using System.Threading.Tasks;
 
 namespace Esteiger_VendingMachine.Resources.money
 {
-  public class Dollar : CurrencyAbstract
+  public class Dollar : Currency
   {
     public Dollar()
     {
       this.Name = "Dollar";
-      this.Weight = 100;
+      this.Value = 100;
     }
   }
 
-  public class Quarter : CurrencyAbstract
+  public class Quarter : Currency
   {
     public Quarter()
     {
       this.Name = "Quarter";
-      this.Weight = 25;
+      this.Value = 25;
     }
   }
 
-  public class Dime : CurrencyAbstract
+  public class Dime : Currency
   {
     public Dime()
     {
       this.Name = "Dime";
-      this.Weight = 10;
+      this.Value = 10;
     }
   }
 
-  public class Nickel : CurrencyAbstract
+  public class Nickel : Currency
   {
     public Nickel()
     {
       this.Name = "Nickel";
-      this.Weight = 5;
+      this.Value = 5;
 
+    }
+  }
+  public class Twenty : Currency
+  {
+    public Twenty()
+    {
+      this.Name = "Twenty Dollar Bill";
+      this.Value = 2000;
     }
   }
 }
