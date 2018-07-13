@@ -13,6 +13,11 @@ namespace Esteiger_VendingMachine
     static void Main(string[] args)
     {
       VendingMachine YourVendingMachine = new VendingMachine();
+      //var list = YourVendingMachine.ReturnInventoryLessThanTwo();
+      //foreach (var item in list)
+      //{
+      //  Console.WriteLine($"{item.Name}:{item.Value}");
+      //}
 
       OptionPrompt();
 
@@ -51,9 +56,12 @@ namespace Esteiger_VendingMachine
           for (var i = 0; i < products.Count; i++)
           {
             Console.WriteLine($"{products[i].Name} : {products[i].Value} cents");
-            YourVendingMachine.AddItemToCart(i + 1);
-            YourVendingMachine.CheckOut();
+            YourVendingMachine.AddItemToCart(i , products);
           }
+          YourVendingMachine.AddToBank(new Twenty());
+          YourVendingMachine.CheckOut();
+          Console.WriteLine("Press enter to exit the program");
+          Console.Read();
         }
       }
 
@@ -109,7 +117,7 @@ namespace Esteiger_VendingMachine
         }
         else
         {
-          YourVendingMachine.AddItemToCart(ProductReply-1);
+          YourVendingMachine.AddItemToCart(ProductReply - 1, YourVendingMachine.ReturnInventory());
           OptionPrompt();
         }
       }

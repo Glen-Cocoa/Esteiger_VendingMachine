@@ -42,4 +42,12 @@ namespace Esteiger_VendingMachine.Resources.money
 
     }
   }
+  public class Twenty : Currency
+  {
+    public Twenty()
+    {
+      this.Name = "Twenty Dollar Bill";
+      this.Value = 2000;
+    }
+  }
 }

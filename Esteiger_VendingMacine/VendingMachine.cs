@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Esteiger_VendingMachine
 {
-  class VendingMachine
+  public class VendingMachine
   {
     private List<IProduct> VMInventory = new ProductCatalogue().PopulateCatalogue();
     private List<IProduct> VMCart = new List<IProduct>();
@@ -74,9 +74,9 @@ namespace Esteiger_VendingMachine
       return sum;
     }
 
-    public void AddItemToCart(int index)
+    public void AddItemToCart(int index, List<IProduct> list)
     {
-      VMCart.Add(VMInventory[index]);
+      VMCart.Add(list[index]);
       Console.WriteLine($"You have successfully added {VMInventory[index].Name} to your Cart. Its cost is {VMInventory[index].Value} cents");
     }
 
